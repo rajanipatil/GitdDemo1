@@ -29,6 +29,7 @@ public class loginStep {
 	public void user_gets_the_title_of_the_page() {
 		title = loginPage.getTitle();
 		System.out.println("Page title is: " + title);
+		System.out.println("just to check new details ");
 	}
 
 	@Then("page title should be {string}")
